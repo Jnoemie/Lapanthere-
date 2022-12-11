@@ -5,6 +5,8 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-family: Helvetica,Verdana,Arial, sans-serif;
+    font-size: 15px;
 }
 
 a,
@@ -26,7 +28,19 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
+.text{font-size:20px;}
+.text-center
+{
+    font-size: 15px;
+}
+.text1
+{
+    font-size: 26px;
+}
+.tc-white
+{
+    font-size: 22px;
+}
 .bloc {
     width: 100%;
     clear: both;
