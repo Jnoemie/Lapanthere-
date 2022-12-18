@@ -31,7 +31,7 @@ a:hover {
 .text{font-size:20px;}
 .text-center
 {
-    font-size: 15px;
+    font-size: 19px;
 }
 .text1
 {
@@ -664,7 +664,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000!important;
 }
 
 .container {
@@ -672,7 +672,8 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 40px;
+    color:#000000;
 }
 
 .hero-bloc-text-sub {
@@ -690,7 +691,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -714,6 +715,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    padding:15px 0;
 }
 
 h2 {
@@ -725,7 +727,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #000000!important;
 }
 
 .med-width-whitespace {
@@ -735,11 +737,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #000000!important;
 }
 
 h4 {
-    color: #333333!important;
+    color: #000000!important;
 }
 
 .icons {
@@ -768,7 +770,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #4B3700;
+    opacity: 0.6;
     padding: 40px 40px 40px 40px;
 }
 
@@ -786,15 +789,17 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color:#FFE6B1;
+    background-color:#FECF9A;
 }
 
 .tc-white {
-    color:#FFE6B1!important;
+    color:#FECF9A!important;
+    font-size: 25px;
+    font-weight: 700;
 }
 
 .btn-atomic-tangerine {
-    background:#FFE6B1;
+    background:#FECF9A;
     
 }
 
@@ -812,7 +817,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color:#FFE6B1!important;
+    color:#FECF9A!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -863,7 +868,7 @@ h4 {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     .b-parallax {
         background-attachment: scroll;
     }
