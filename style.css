@@ -12,27 +12,36 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    
     
     
 }
 a:focus ,
 button:focus 
 {
-    transition: all .3s ease-in-out;
-    outline: none!important;
+    outline:2px solid black ;
 }
 a:focus-visible,
 button:focus-visible
 {
-    transition: all .3s ease-in-out;
-    outline: none!important;
+
+    outline: 2px solid black;
 }
 a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+#nav-toggle :focus,
+.bloc-button :focus
+{
+    outline:2px solid black;
 
+}
+#nav-toggle :focus-visible,
+.bloc-button :focus-visible
+{
+    outline:2px solid black;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -486,9 +495,6 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none!important;
-}
 
 .btn-rd {
     border-radius: 40px;
